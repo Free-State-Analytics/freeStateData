@@ -54,3 +54,41 @@
 #' head(us_treasury_data_1890s)
 "us_treasury_data_1890s"
 
+#' U.S. Population by Race in 1860
+#'
+#' This dataset contains the population breakdown by race and gender in the U.S. for the year 1860.
+#'
+#' @format A data frame with the following columns:
+#' \describe{
+#'   \item{geo}{Geographic area, possibly a state or region (character)}
+#'   \item{type}{The type of data, e.g., total, breakdown by race or gender (character)}
+#'   \item{total_white}{Total White population (integer)}
+#'   \item{total_white_male}{Total White male population (integer)}
+#'   \item{total_white_female}{Total White female population (integer)}
+#'   \item{total_free_black}{Total Free Black population (integer)}
+#'   \item{total_free_black_male}{Total Free Black male population (integer)}
+#'   \item{total_free_black_female}{Total Free Black female population (integer)}
+#'   \item{total_free_mixed_race}{Total Free Mixed Race population (integer)}
+#'   \item{total_free_mixed_race_male}{Total Free Mixed Race male population (integer)}
+#'   \item{total_free_mixed_race_female}{Total Free Mixed Race female population (integer)}
+#'   \item{total_free_black_and_mixed}{Total Free Black and Mixed Race population (integer)}
+#'   \item{total_free_black_and_mixed_male}{Total Free Black and Mixed Race male population (integer)}
+#'   \item{total_free_black_and_mixed_female}{Total Free Black and Mixed Race female population (integer)}
+#'   \item{total_native}{Total Native population (integer)}
+#'   \item{total_native_male}{Total Native male population (integer)}
+#'   \item{total_native_female}{Total Native female population (integer)}
+#'   \item{total_slave_black}{Total Slave Black population (integer)}
+#'   \item{total_slave_black_male}{Total Slave Black male population (integer)}
+#'   \item{total_slave_black_female}{Total Slave Black female population (integer)}
+#'   \item{total_slave_mixed}{Total Slave Mixed Race population (integer)}
+#'   \item{total_slave_mixed_male}{Total Slave Mixed Race male population (integer)}
+#'   \item{total_slave_mixed_female}{Total Slave Mixed Race female population (integer)}
+#'   \item{total_slave_black_and_mixed}{Total Slave Black and Mixed Race population (integer)}
+#'   \item{total_slave_black_and_mixed_male}{Total Slave Black and Mixed Race male population (integer)}
+#'   \item{total_slave_black_and_mixed_female}{Total Slave Black and Mixed Race female population (integer)}
+#' }
+#'
+#' @source Historical U.S. Census Data, pages 598-599. https://www2.census.gov/library/publications/decennial/1860/population/1860a-46.pdf
+"us_population_by_race_1860"
+
+

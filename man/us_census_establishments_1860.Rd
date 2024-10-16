@@ -12,9 +12,6 @@ A data frame with X rows and 8 columns:
 \item{\code{no_of_establishments}}{Number of industrial establishments (integer).}
 \item{\code{total_capital_invested}}{Total capital invested in the establishments (numeric).}
 \item{\code{annual_value_of_products}}{Annual value of products produced by the establishments (numeric).}
-\item{\code{border_state_ind}}{Indicator for whether the state was a border state during the U.S. Civil War (0 = No, 1 = Yes).}
-\item{\code{slave_state_ind}}{Indicator for whether the state was a slave state (0 = No, 1 = Yes).}
-\item{\code{confederate_state_ind}}{Indicator for whether the state was part of the Confederacy during the U.S. Civil War (0 = No, 1 = Yes).}
 }
 }
 \source{
@@ -25,9 +22,8 @@ the Secretary of the Interior, Bureau of Census Library, pp. 729-730.
 data(us_census_establishments_1860)
 }
 \description{
-This dataset contains industrial and economic data for U.S. states, including the number of establishments,
-total capital investment, and the value of annual products. It also includes indicators for whether a state
-was a border state, slave state, or Confederate state during the U.S. Civil War.
+This dataset contains industrial and economic data for U.S. states, including the number of establishments (manufactures),
+total capital investment, and the value of annual products.
 }
 \examples{
 # Load the dataset
