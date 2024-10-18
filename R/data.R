@@ -86,9 +86,62 @@
 #'   \item{total_slave_black_and_mixed}{Total Slave Black and Mixed Race population (integer)}
 #'   \item{total_slave_black_and_mixed_male}{Total Slave Black and Mixed Race male population (integer)}
 #'   \item{total_slave_black_and_mixed_female}{Total Slave Black and Mixed Race female population (integer)}
+#'   \item{total_white_male_20_to_30}{Total White male population between 20 and 30 years of age (integer)}
+#'   \item{total_free_black_mixed_male_20_to_30}{Total Free Black and Mixed Race male population between 20 and 30 years of age (integer)}
+#'   \item{total_native_male_20_to_30}{Total Native American male population between 20 and 30 years of age (integer)}
+#'   \item{total_slave_black_mixed_male_20_to_30}{Total Slave Black and Mixed Race male population between 20 and 30 years of age (integer)}
 #' }
 #'
 #' @source Historical U.S. Census Data, pages 598-599. https://www2.census.gov/library/publications/decennial/1860/population/1860a-46.pdf
 "us_population_by_race_1860"
 
+#' Gun Manufacturers by Region Dataset
+#'
+#' This dataset provides information about gun manufacturers by region, including the number of gun manufacturers and the total value of products manufactured.
+#'
+#' @format A data frame with the following columns:
+#' \describe{
+#'   \item{region}{(character) The name of the region where gun manufacturers are located.}
+#'   \item{no_gun_manufacturers}{(integer) The number of gun manufacturing companies or facilities located within the region.}
+#'   \item{value_of_product}{(numeric) The total value of products manufactured by gun manufacturers in the region. This value is in dollars.}
+#' }
+#'
+#' @details
+#' This dataset is intended for analyzing the distribution of gun manufacturing companies and the corresponding economic value of their products across different regions. It can be used for market analysis, economic studies, and regional assessments of industrial activity.
+#'
+#' @source Manufactures of The United States in 1860; Compiled From the Original Returns of the Eighth Census under the direction of
+#' the Secretary of the Interior, Bureau of Census Library, pp. cxc.
+#'
+#' @examples
+#' # Example of how to load and use the dataset
+#' data(us_gun_manufacturing_1860)
+#' head(us_gun_manufacturing_1860)
+#'
+"us_gun_manufacturing_1860"
 
+#' U.S. Railroad Miles in 1860 by Region
+#'
+#' This dataset provides information on the total miles of railroad tracks by region in the United States in 1860.
+#'
+#' @format A data frame with the following columns:
+#' \describe{
+#'   \item{region}{(character) The name of the region (state or other geographical area) in the United States.}
+#'   \item{railroad_miles_1860}{(numeric) The total miles of railroad tracks in the region as of 1860.}
+#' }
+#'
+#' @details
+#' This dataset contains historical information about the expansion of the railroad system in the United States as of 1860. It can be used to analyze the distribution of railroad infrastructure across different regions, providing insights into the early industrial and transportation development of the country.
+#'
+#' @source
+#' Data was sourced from page 185 of the book "One Hundred Years of American Commerce" by Chauncey M. Depew, available at \url{https://babel.hathitrust.org/cgi/pt?id=ien.35556015719511&seq=185}.
+#'
+#' @examples
+#' # Example of how to load and use the dataset
+#' data(us_railroad_miles_1860)
+#' head(us_railroad_miles_1860)
+#'
+"us_railroad_miles_1860"
+
+### Railroads
+### https://www.loc.gov/item/2020446879/
+### https://babel.hathitrust.org/cgi/pt?id=ien.35556015719511&seq=185
