@@ -1,12 +1,17 @@
-# novel.data
+# Free State Data Sets
+
+This package contains data sets compiled and provided by Free State Analytics for anyone to use.
 
 ## Installation
 
-You can install the development version of `novel.data` from [GitHub](https://github.com/taylorrodgers/novel.data) with:
+You can install the development version of `freeStateData` from [GitHub](https://github.com/Free-State-Analytics/freeStateData) with:
 
 ```r
-# If you don't have devtools installed yet, first run:
-install.packages("devtools")
+devtools::install_github("https://github.com/Free-State-Analytics/freeStateData")
+```
 
-# Install novel.data package
-devtools::install_github("yourusername/novel.data")
+If you don't have devtools installed yet, first run:
+```r
+install.packages("devtools")
+```
+

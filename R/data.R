@@ -92,6 +92,8 @@
 #'   \item{total_slave_black_mixed_male_20_to_30}{Total Slave Black and Mixed Race male population between 20 and 30 years of age (integer)}
 #' }
 #'
+#' @usage data(us_population_by_race_1860)
+#'
 #' @source Historical U.S. Census Data, pages 598-599. https://www2.census.gov/library/publications/decennial/1860/population/1860a-46.pdf
 "us_population_by_race_1860"
 
@@ -111,6 +113,8 @@
 #'
 #' @source Manufactures of The United States in 1860; Compiled From the Original Returns of the Eighth Census under the direction of
 #' the Secretary of the Interior, Bureau of Census Library, pp. cxc.
+#'
+#' @usage data(us_gun_manufacturing_1860)
 #'
 #' @examples
 #' # Example of how to load and use the dataset
@@ -135,6 +139,8 @@
 #' @source
 #' Data was sourced from page 185 of the book "One Hundred Years of American Commerce" by Chauncey M. Depew, available at \url{https://babel.hathitrust.org/cgi/pt?id=ien.35556015719511&seq=185}.
 #'
+#' @usage data(us_railroad_miles_1860)
+#'
 #' @examples
 #' # Example of how to load and use the dataset
 #' data(us_railroad_miles_1860)
@@ -145,3 +151,31 @@
 ### Railroads
 ### https://www.loc.gov/item/2020446879/
 ### https://babel.hathitrust.org/cgi/pt?id=ien.35556015719511&seq=185
+
+#' US States and Their Involvement in the Civil War
+#'
+#' A data set containing information about US states and their status or involvement during the Civil War.
+#'
+#' @format A data frame with the following columns:
+#' \describe{
+#'   \item{state}{\code{character}. The name of the US state.}
+#'   \item{border_state_ind}{\code{logical}. Indicator for whether the state was a border state during the Civil War (TRUE/FALSE). Border states were slave states that did not secede from the Union.}
+#'   \item{slave_state_ind}{\code{logical}. Indicator for whether the state was a slave state during the Civil War (TRUE/FALSE).}
+#'   \item{confederate_state_ind}{\code{logical}. Indicator for whether the state was a Confederate state during the Civil War (TRUE/FALSE).}
+#' }
+#'
+#' @details
+#' - A \code{TRUE} value in \code{border_state_ind} implies that the state did not secede from the Union despite permitting slavery.
+#' - A \code{TRUE} value in \code{confederate_state_ind} indicates that the state seceded from the Union to join the Confederacy.
+#' - \code{slave_state_ind} identifies all states where slavery was legally permitted, regardless of Union or Confederate alignment.
+#'
+#' @source
+#' Historical records and references from the US National Archives and Civil War history documentation.
+#'
+#' @usage data(civil_war_state_and_territories)
+#'
+#' @examples
+#' # Example of viewing the data
+#' data(civil_war_state_and_territories)
+#' head(civil_war_state_and_territories)
+"civil_war_state_and_territories"

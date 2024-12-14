@@ -1,10 +1,10 @@
-Package: novel.data
-Title: What the Package Does (One Line, Title Case)
+Package: freeStateData
+Title: Free State Data Sets
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Taylor", "Rodgers", , "Taylor.Rodgers@freestateanalytics.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Data sets compiled by Free State Analytics to assist with tutorials and workshops.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

@@ -33,13 +33,17 @@ A data frame with the following columns:
 \item{total_slave_black_and_mixed}{Total Slave Black and Mixed Race population (integer)}
 \item{total_slave_black_and_mixed_male}{Total Slave Black and Mixed Race male population (integer)}
 \item{total_slave_black_and_mixed_female}{Total Slave Black and Mixed Race female population (integer)}
+\item{total_white_male_20_to_30}{Total White male population between 20 and 30 years of age (integer)}
+\item{total_free_black_mixed_male_20_to_30}{Total Free Black and Mixed Race male population between 20 and 30 years of age (integer)}
+\item{total_native_male_20_to_30}{Total Native American male population between 20 and 30 years of age (integer)}
+\item{total_slave_black_mixed_male_20_to_30}{Total Slave Black and Mixed Race male population between 20 and 30 years of age (integer)}
 }
 }
 \source{
 Historical U.S. Census Data, pages 598-599. https://www2.census.gov/library/publications/decennial/1860/population/1860a-46.pdf
 }
 \usage{
-us_population_by_race_1860
+data(us_population_by_race_1860)
 }
 \description{
 This dataset contains the population breakdown by race and gender in the U.S. for the year 1860.
