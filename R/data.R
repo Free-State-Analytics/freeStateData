@@ -23,6 +23,7 @@
 #'
 #' # View the first few rows
 #' head(us_census_establishments_1860)
+#' @export
 "us_census_establishments_1860"
 
 
@@ -52,6 +53,7 @@
 #'
 #' # View the first few rows
 #' head(us_treasury_data_1890s)
+#' @export
 "us_treasury_data_1890s"
 
 #' U.S. Population by Race in 1860
@@ -95,6 +97,7 @@
 #' @usage data(us_population_by_race_1860)
 #'
 #' @source Historical U.S. Census Data, pages 598-599. https://www2.census.gov/library/publications/decennial/1860/population/1860a-46.pdf
+#' @export
 "us_population_by_race_1860"
 
 #' Gun Manufacturers by Region Dataset
@@ -121,6 +124,7 @@
 #' data(us_gun_manufacturing_1860)
 #' head(us_gun_manufacturing_1860)
 #'
+#' @export
 "us_gun_manufacturing_1860"
 
 #' U.S. Railroad Miles in 1860 by Region
@@ -145,7 +149,7 @@
 #' # Example of how to load and use the dataset
 #' data(us_railroad_miles_1860)
 #' head(us_railroad_miles_1860)
-#'
+#' @export
 "us_railroad_miles_1860"
 
 ### Railroads
@@ -178,4 +182,5 @@
 #' # Example of viewing the data
 #' data(civil_war_state_and_territories)
 #' head(civil_war_state_and_territories)
+#' @export
 "civil_war_state_and_territories"
